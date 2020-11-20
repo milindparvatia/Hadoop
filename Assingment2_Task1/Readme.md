@@ -11,16 +11,20 @@ mapReduce was taking very long time so, I have converted the .gz file to txt usi
 
 In these cmds, the input and outputs paths are used as arguments passed at the cmd line arg(1), arg(2).
 
-###Task1.1 Pair :
+### Task1.1 Pair :
+
 > hadoop jar Assingment2_Task1-1.0-SNAPSHOT.jar mapReduce.Pairs /user/milind/commoncrawl.txt /user/milind/Output_Pair ~/
 
-###Task1.1 Strip:
+### Task1.1 Strip:
+
 ```hadoop jar Assingment2_Task1-1.0-SNAPSHOT.jar mapReduce.Stripes /user/milind/commoncrawl.txt /user/milind/output_Strip ~/```
 
-###Task1.2 Pair Relative:
+### Task1.2 Pair Relative:
+
 ```hadoop jar Assingment2_Task1-1.0-SNAPSHOT.jar mapReduce.PairsRelative /user/milind/commoncrawl.txt /user/milind/output_Pair_Relative ~/```
 
-###Task1.2 Relative:
+### Task1.2 Relative:
+
 ```hadoop jar Assingment2_Task1-1.0-SNAPSHOT.jar mapReduce.StripesRelative /user/milind/commoncrawl.txt /user/milind/output_Strip_Relative ~/```
 
 Notes: 
