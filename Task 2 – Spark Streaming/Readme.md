@@ -1,4 +1,4 @@
-# Assignment2 Part 2 Scala Mevan Project
+# Task 2 – Spark Streaming
 
 ## Cmds used to execute .jar
 
@@ -10,8 +10,10 @@ In these cmds, the input and outputs paths are used as arguments passed at the c
 
 Notes: 
 
-1) I have used arg(0) as input and arg(1),arg(2),arg(3) as outputs respectively.
-2) I have put 20 seconds delay in streaming so that input can process and we can download output before Hadoop rewrite new stream.
-3) I have also provided my outputs in archive just incase.
-4) I have added my saveTextfile function without overwrite but it has error.
+1.) I have used arg(0) as input and arg(1),arg(2),arg(3) as outputs respectively.
 
+2.) I have put 20 seconds delay in streaming so that input can process and we can download output before Hadoop rewrite new stream.
+
+3.) I have also provided my outputs in archive just incase.
+
+4.) I have added my saveTextfile function without overwrite but it has error.
